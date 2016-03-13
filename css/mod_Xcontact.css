@@ -1,0 +1,11 @@
+/* CSS Document*/
+#email, #name{width:95%; height:30px; display:block;}
+.btn{float:right; margin-right:10px;}
+#message{width:95%; display:block;}
+#sugBox label{ font-family:Georgia, Times, serif; font-weight:bold; margin-left:2px;}
+.free-20{height:20px;}
+#sugBox{ border-radius:5px; box-shadow:0 15px 10px rgba(0,0,0,.5);}
+#form-header{border-top-left-radius:5PX; border-top-right-radius:5PX; background:#0099FF; text-align:center; margin:0px;  padding:6px; color:#fff; }
+#form-body{padding:10px; margin:0px; text-align:left !important;}
+#footer{background:red; margin:0px;}
+#errorBox{display:none;}
