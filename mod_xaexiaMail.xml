@@ -1,44 +1,44 @@
 <?xml version="1.0"?>
 <extension type="module" version="3.4.8" method="upgrade">
 	<name>xaexiaMail</name>
-	<author>Katende Ivan</author>
-	<creationDate>March 2016</creationDate>
-	<copyright>Copyright (C) 2016. All rights reserved.</copyright>
-	<authorEmail>kigh143@gmail.com</authorEmail>
-	<authorUrl>www.xaexia.com</authorUrl>
-	<version>1.0.0</version>
-	<description>MOD_XAEXIAMAIL_DESCRIPTION</description>
-	<files>
-		<filename>mod_xaexiaMail.xml</filename>
-		<filename module="mod_xaexiaMail">mod_xaexiaMail.php</filename>
-		<filename>helper.php</filename>
-		<filename>index.html</filename>
-		<filename>install.sql</filename>
-		<filename>uninstall.sql</filename>
-		<folder>tmpl</folder>
-		<folder>css</folder>
-        <folder>js</folder>
-	</files>
-	<install>
-		<sql>
-			<file charest="utf8" driver="mysql">install.sql</file>
-		</sql>
-	</install>
-	<uninstall>
-		<sql>
-			<file charest="utf8" driver="mysql">uninstall.sql</file>
-		</sql>
-	</uninstall>
-	<config>
-		 <fields name="params">
-		 		<fieldset name="email_config" label="Mailing Information">
-					<field name="sender_name" type="text" label="Sender name"/>
-					<field name="sender_email" type="text" label="Sender Email address"/>
-					<field name="reciever_email" type="text" label="Reciever Email address"/>
-					<field name="header_color" type="color" label="Header color" default="skyblue"/>
-					<field name="Text_header" type="text" label="header text" default="GET IN TOUCH WITH US"/>
-					<field name="button_color" type="color" label="Button color" default="skyblue"/>
-				</fieldset>
-		 </fields>
-	</config>
-</extension>
+		<author>Katende Ivan</author>
+			<creationDate>March 2016</creationDate>
+				<copyright>Copyright (C) 2016. All rights reserved.</copyright>
+					<authorEmail>kigh143@gmail.com</authorEmail>
+						<authorUrl>www.xaexia.com</authorUrl>
+							<version>1.0.0</version>
+								<description>xaexiaMail module description</description>
+									<files>
+											<filename>mod_xaexiaMail.xml</filename>
+													<filename module="mod_xaexiaMail">mod_xaexiaMail.php</filename>
+															<filename>helper.php</filename>
+																	<filename>index.html</filename>
+																			<filename>install.sql</filename>
+																					<filename>uninstall.sql</filename>
+																							<folder>tmpl</folder>
+																									<folder>css</folder>
+																									        <folder>js</folder>
+																											</files>
+																												<install>
+																														<sql>
+																																	<file charset="utf8" driver="mysql">install.sql</file>
+																																			</sql>
+																																				</install>
+																																					<uninstall>
+																																							<sql>
+																																										<file charset="utf8" driver="mysql">uninstall.sql</file>
+																																												</sql>
+																																													</uninstall>
+																																														<config>
+																																																 <fields name="params">
+																																																 		 		<fieldset name="email_config" label="Mailing Information">
+																																																									<field name="sender_name" type="text" label="Sender name"/>
+																																																														<field name="sender_email" type="text" label="Sender Email address"/>
+																																																																			<field name="reciever_email" type="text" label="Reciever Email address"/>
+																																																																								<field name="header_color" type="color" label="Header color" default="skyblue"/>
+																																																																													<field name="Text_header" type="text" label="header text" default="GET IN TOUCH WITH US"/>
+																																																																																		<field name="button_color" type="color" label="Button color" default="skyblue"/>
+																																																																																						</fieldset>
+																																																																																								 </fields>
+																																																																																								 	</config>
+																																																																																									</extension>
