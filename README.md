@@ -6,3 +6,4 @@ This is a Joomla module that adds the contact us functionality to their websites
 you can make pull request and we inprove joomla perfomance as best CMS site in he world.
 The styles of the form are customisable to the users theme color. by using mailing information as soon below.
 
+![mailing information](https://cloud.githubusercontent.com/assets/9465902/13794522/4f71974a-eb0d-11e5-89de-e086e38aa2c3.png)
